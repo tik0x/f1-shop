@@ -1,0 +1,192 @@
+[
+    {
+        "id": "campera-1",
+        "titulo": "Campera Gris Mercedes",
+        "img": "./img/camperas/1.jpg",
+        "categoria":{
+            "nombre": "Camperas",
+            "id": "camperas"
+        },
+        "precio": 9299
+    },
+    {
+        "id": "campera-2",
+        "titulo": "Campera Negra Ferrari",
+        "img": "./img/camperas/2.jpg",
+        "categoria":{
+            "nombre": "Camperas",
+            "id": "camperas"
+        },
+        "precio": 9299
+    },
+    {
+        "id": "campera-3",
+        "titulo": "Campera Red Bull Racing",
+        "img": "./img/camperas/3.jpg",
+        "categoria":{
+            "nombre": "Camperas",
+            "id": "camperas"
+        },
+        "precio": 11799
+    },
+    {
+        "id": "campera-4",
+        "titulo": "Campera Roja Ferrari",
+        "img": "./img/camperas/4.jpg",
+        "categoria":{
+            "nombre": "Camperas",
+            "id": "camperas"
+        },
+        "precio": 14999
+    },
+    {
+        "id": "campera-5",
+        "titulo": "Campera Negra Alpine",
+        "img": "./img/camperas/5.jpg",
+        "categoria":{
+            "nombre": "Camperas",
+            "id": "camperas"
+        },
+        "precio": 12499
+    },
+    {
+        "id": "campera-6",
+        "titulo": "Campera Abrigo Mercedes",
+        "img": "./img/camperas/6.jpg",
+        "categoria":{
+            "nombre": "Camperas",
+            "id": "camperas"
+        },
+        "precio": 24999
+    },
+    {
+        "id": "campera-7",
+        "titulo": "Campera Abrigo Ferrari",
+        "img": "./img/camperas/7.jpg",
+        "categoria":{
+            "nombre": "Camperas",
+            "id": "camperas"
+        },
+        "precio": 24999
+    },
+    {
+        "id": "campera-8",
+        "titulo": "Campera Ferrari Capucha",
+        "img": "./img/camperas/8.jpg",
+        "categoria":{
+            "nombre": "Camperas",
+            "id": "camperas"
+        },
+        "precio": 13499
+    },
+    {
+        "id": "buzo-1",
+        "titulo": "Buzo Negro Ferrari",
+        "img": "./img/buzos/1.jpg",
+        "categoria":{
+            "nombre": "Buzos",
+            "id": "buzos"
+        },
+        "precio": 7499
+    },
+    {
+        "id": "buzo-2",
+        "titulo": "Buzo Rojo Ferrari",
+        "img": "./img/buzos/2.jpg",
+        "categoria":{
+            "nombre": "Buzos",
+            "id": "buzos"
+        },
+        "precio": 8799
+    },
+    {
+        "id": "buzo-3",
+        "titulo": "Buzo Negro Mercedes",
+        "img": "./img/buzos/3.jpg",
+        "categoria":{
+            "nombre": "Buzos",
+            "id": "buzos"
+        },
+        "precio": 9499
+    },
+    {
+        "id": "buzo-4",
+        "titulo": "Buzo Gris BMW",
+        "img": "./img/buzos/4.jpg",
+        "categoria":{
+            "nombre": "Buzos",
+            "id": "buzos"
+        },
+        "precio": 7499
+    },
+    {
+        "id": "buzo-5",
+        "titulo": "Buzo Negro BMW",
+        "img": "./img/buzos/5.jpg",
+        "categoria":{
+            "nombre": "Buzos",
+            "id": "buzos"
+        },
+        "precio": 6999
+    },
+    {
+        "id": "remera-1",
+        "titulo": "Remera SF Aniversario",
+        "img": "./img/remeras/1.jpg",
+        "categoria":{
+            "nombre": "Remeras",
+            "id": "remeras"
+        },
+        "precio": 4999
+    },
+    {
+        "id": "remera-2",
+        "titulo": "Remera Negra Ferrari",
+        "img": "./img/remeras/2.jpg",
+        "categoria":{
+            "nombre": "Remeras",
+            "id": "remeras"
+        },
+        "precio": 5499
+    },
+    {
+        "id": "remera-3",
+        "titulo": "Remera Roja Ferrari",
+        "img": "./img/remeras/3.jpg",
+        "categoria":{
+            "nombre": "Remeras",
+            "id": "remeras"
+        },
+        "precio": 5499
+    },
+    {
+        "id": "remera-4",
+        "titulo": "Remera Logo Mercedes",
+        "img": "./img/remeras/4.jpg",
+        "categoria":{
+            "nombre": "Remeras",
+            "id": "remeras"
+        },
+        "precio": 4999
+    },
+    {
+        "id": "remera-5",
+        "titulo": "Remera Gris Mercedes",
+        "img": "./img/remeras/5.jpg",
+        "categoria":{
+            "nombre": "Remeras",
+            "id": "remeras"
+        },
+        "precio": 5499
+    },
+    {
+        "id": "remera-6",
+        "titulo": "Remera Azul Alpine",
+        "img": "./img/remeras/6.jpg",
+        "categoria":{
+            "nombre": "Remeras",
+            "id": "remeras"
+        },
+        "precio": 5299
+    }
+]

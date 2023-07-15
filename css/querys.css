@@ -9,6 +9,16 @@
 
 @media screen and (max-width: 767px){
 
+    .carrito-acciones-total {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .carrito-acciones-vaciar,
+    .carrito-acciones-derecha {
+        height: 5rem;
+    }
+
     .carrito-producto-titulo,
     .carrito-detalles,
     .carrito-acciones-izquierda,

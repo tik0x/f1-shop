@@ -12,6 +12,7 @@
     .carrito-acciones-total {
         flex-direction: column;
         justify-content: center;
+        width: 5rem;
     }
 
     .carrito-acciones-vaciar,

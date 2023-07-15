@@ -1,13 +1,18 @@
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 1022px){
 
     .contenedor-productos {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
 @media screen and (max-width: 767px){
+
+    .contenedor-productos {
+        display: flex;
+        flex-direction: column;
+    }
 
     .wrapper {
         display: flex;
@@ -29,9 +34,16 @@
     }
 
     .aside-visible{
+        width: 100%;
         transform: translateX(0);
         opacity: 1;
         visibility: visible;
+        align-items: center;
+    }
+
+    .boton-menu.active {
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
     }
     
     .boton-menu.active::before,

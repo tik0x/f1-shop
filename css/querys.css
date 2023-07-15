@@ -9,6 +9,23 @@
 
 @media screen and (max-width: 767px){
 
+    .carrito-producto-titulo,
+    .carrito-detalles,
+    .carrito-acciones-izquierda,
+    .carrito-acciones-derecha,
+    .carrito-acciones-comprar {
+        font-size: .8rem;
+    }
+
+    .carrito-acciones-izquierda {
+        margin-right: .5rem;
+    }
+
+    .carrito-producto-precio,
+    .carrito-producto-subtotal {
+        margin-top: .3rem;
+    }
+
     .contenedor-productos {
         display: flex;
         flex-direction: column;

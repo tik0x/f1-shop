@@ -12,6 +12,7 @@ const botonesCategorias = document.querySelectorAll(".boton-categorias");
 const tituloPrincipal = document.querySelector("#titulo-principal");
 let botonesAgregar = document.querySelectorAll(".producto-agregar");
 const numero = document.querySelector("#numero");
+const botonLogo = document.querySelectorAll(".boton-logo");
 
 function cargarProductos(productosElegidos) {
 
@@ -37,8 +38,6 @@ function cargarProductos(productosElegidos) {
 
 }
 
-
-
 botonesCategorias.forEach(boton => {
     boton.addEventListener("click", (e) => {
 
@@ -52,6 +51,7 @@ botonesCategorias.forEach(boton => {
             tituloPrincipal.innerText = productosCategoria.categoria.nombre;
 
             const productosBoton = productos.filter(producto => producto.categoria.id === e.currentTarget.id )
+            console.log(productos);
             cargarProductos(productosBoton);
         } else{
 
@@ -91,7 +91,7 @@ function agregarAlCarrito(e){
         stopOnFocus: true,
         style: {
           background: "linear-gradient(to right, #b30808, #5a1818)",
-          borderRadius: "2rem",
+          borderRadius: "1rem",
           fontSize: ".85rem", 
         },
         offset: {

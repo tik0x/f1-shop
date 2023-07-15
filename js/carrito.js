@@ -33,21 +33,23 @@ function cargarProductosCarrito() {
                     <small>Titulo</small>
                     <h3>${producto.titulo}</h3>
                 </div>
-                <div class="carrito-producto-cantidad">
-                    <small>Cantidad</small>
-                    <div class="carrito-producto-cantidad-numero">
-                        <button class="carrito-producto-cantidad-eliminar" id="${producto.id}"><i class="bi bi-dash"></i></button>
-                        <p>${producto.cantidad}</p>
-                        <button class="carrito-producto-cantidad-agregar" id="${producto.id}"><i class="bi bi-plus"></i></button>
+                <div class="carrito-detalles">
+                    <div class="carrito-producto-cantidad">
+                        <small>Cantidad</small>
+                        <div class="carrito-producto-cantidad-numero">
+                            <button class="carrito-producto-cantidad-eliminar" id="${producto.id}"><i class="bi bi-dash"></i></button>
+                            <p>${producto.cantidad}</p>
+                            <button class="carrito-producto-cantidad-agregar" id="${producto.id}"><i class="bi bi-plus"></i></button>
+                        </div>
                     </div>
-                </div>
-                <div class="carrito-producto-precio">
-                    <small>Precio</small>
-                    <p>${producto.precio}</p>
-                </div>
-                <div class="carrito-producto-subtotal">
-                    <small>Subtotal</small>
-                    <p>${producto.precio * producto.cantidad}</p>
+                    <div class="carrito-producto-precio">
+                        <small>Precio</small>
+                        <p>${producto.precio}</p>
+                    </div>
+                    <div class="carrito-producto-subtotal">
+                        <small>Subtotal</small>
+                        <p>${producto.precio * producto.cantidad}</p>
+                    </div>
                 </div>
                 <button class="carrito-producto-eliminar" id="${producto.id}"><i class="bi bi-trash-fill"></i></button>
     

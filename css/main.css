@@ -197,12 +197,6 @@ main{
     transition: background-color .2s, color .2s;
 }
 
-.producto-agregar:hover{
-    background-color: black;
-    color: white;
-
-}
-
 /* CARRITO */
 
 .contenedor-carrito{
